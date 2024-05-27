@@ -6,7 +6,7 @@ import os
 
 
 # Caminho para o diretório de dados
-data_dir = 'test'
+data_dir = os.path.join('..', 'test')
 
 # Definir geradores de dados com e sem data augmentation
 datagen_no_aug = ImageDataGenerator(rescale=1.0/255.0, validation_split=0.2)

@@ -12,7 +12,7 @@ model = tf.keras.models.load_model(model_path)
 
 
 # Caminho para a nova imagem
-image_path = 'test\\000_airplane\\twinjet_s_000413.png'
+image_path = '..\\test\\000_airplane\\twinjet_s_000413.png'
 
 # Carregar a imagem
 img = image.load_img(image_path, target_size=(32, 32))
